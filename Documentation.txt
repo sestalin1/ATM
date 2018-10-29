@@ -1,9 +1,28 @@
-https://docs.google.com/document/d/17OBH6tPN9sD-LKAY41ozvB4mf-T5YSJ8BQGsH4jU0LY/
+
+ Author: Juan Leonardo de la Cruz Reyes - 20142947
 
  Classes:
     1. Program
 		 Methods:
-			void Main()  //Metodoprincipal de la aplicacion. llama la clase Manager.
+			void Main(): Metodoprincipal de la aplicacion. llama la clase Manager.
 	2. Manger
 		Methods:
+		void Admin(): Es el metodo principal de la clase y llama todas las demas funciones involucradas en las operaciones.
+		void AccountChecker: Valida la cuenta en la que serealizaran las transacciones.
+		void PINChecker(Account): Valida el PIN de la cuenta en la que serealizaran las transacciones.
+		void TransactionMenu: Es donde se brindan al usuario las opciones de las transacciones disponibles.
+
+	3.Account
+		Properties:
+			Int ID: Identificador de la cuenta.
+			double balance: balance de la cuenta.
+			string PIN: Clave personal de la cuenta.
+			string Name: Nombre del propietario.
+		Methods:
+			Account(int ID, double balance, string PIN, string Name): Este el el constructor de la clase.
+
+	4.Transaction
+		Methods:
+			void Balance(Account): Consulta el balance de una cuenta.
+			void void Withdrawal(Account): Realiza retiros de una cuenta.
 			
