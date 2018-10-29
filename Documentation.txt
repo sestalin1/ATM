@@ -1,0 +1,9 @@
+https://docs.google.com/document/d/17OBH6tPN9sD-LKAY41ozvB4mf-T5YSJ8BQGsH4jU0LY/
+
+ Classes:
+    1. Program
+		 Methods:
+			void Main()  //Metodoprincipal de la aplicacion. llama la clase Manager.
+	2. Manger
+		Methods:
+			
